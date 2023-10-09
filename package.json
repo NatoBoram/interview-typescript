@@ -1,0 +1,35 @@
+{
+  "name": "@natoboram/interview-typescript",
+  "version": "0.0.0",
+  "description": "Maintainability-focused interview questions for junior developers.",
+  "keywords": [
+    "interview-questions",
+    "junior-developer",
+    "typescript"
+  ],
+  "homepage": "https://github.com/NatoBoram/interview-typescript",
+  "bugs": {
+    "url": "https://github.com/NatoBoram/interview-typescript/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": {
+    "name": "Nato Boram",
+    "url": "https://github.com/NatoBoram"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/NatoBoram"
+    },
+    {
+      "type": "individual",
+      "url": "https://paypal.me/NatoBoram/5"
+    }
+  ],
+  "repository": "github:NatoBoram/interview-typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "type": "module"
+}

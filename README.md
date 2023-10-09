@@ -4,7 +4,7 @@ Maintainability-focused interview questions for junior developers.
 
 ## Getting started
 
-This is a TypeScript project using strict TypeScript and strict TypeScript-ESLint. The questions do not focus on algorithms, unlike traditional leet code, but instead focus on real-world scenarios that you will encounter in your day-to-day work with a strong emphasis on writing simple, maintainable code.
+This is a TypeScript project using [strict TypeScript](https://www.typescriptlang.org/tsconfig#strict) and [strict TypeScript-ESLint](https://typescript-eslint.io/linting/configs/#strict-type-checked). The questions do not focus on algorithms, unlike traditional leet code, but instead focus on real-world scenarios that you will encounter in your day-to-day work with a strong emphasis on writing simple, maintainable code.
 
 1. Fork the project by clicking [here](https://github.com/NatoBoram/interview-typescript/fork)
 2. Clone it to your local machine using `git clone`

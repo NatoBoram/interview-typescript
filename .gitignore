@@ -1,3 +1,8 @@
+# Lockfiles
+bun.lockb
+package-lock.json
+yarn.lock
+
 # Logs
 logs
 *.log

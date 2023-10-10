@@ -28,7 +28,7 @@
 		/* Interop Constraints */
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
-		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"forceConsistentCasingInFileNames": true,
 
 		/* Type Checking */
 		"strict": true,

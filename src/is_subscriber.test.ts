@@ -1,36 +1,38 @@
-import { expect, test } from "vitest"
+import { describe, test } from "vitest"
 import type { UserResponse } from "./is_subscriber.js"
 import { isSubscriber } from "./is_subscriber.js"
 
-test("with a subscriber", () => {
-	const subscriber: UserResponse = {
-		success: true,
-		user: {
-			is_subscriber: true,
-			email: "example@example.org",
-		},
-	}
+describe.concurrent("isSubscriber", () => {
+	test("with a subscriber", ({ expect }) => {
+		const subscriber: UserResponse = {
+			success: true,
+			user: {
+				is_subscriber: true,
+				email: "example@example.org",
+			},
+		}
 
-	expect(isSubscriber(subscriber)).toBe(true)
-})
+		expect(isSubscriber(subscriber)).toBe(true)
+	})
 
-test("with a non-subscriber", () => {
-	const nonSubscriber: UserResponse = {
-		success: true,
-		user: {
-			is_subscriber: false,
-			email: "example@example.org",
-		},
-	}
+	test("with a non-subscriber", ({ expect }) => {
+		const nonSubscriber: UserResponse = {
+			success: true,
+			user: {
+				is_subscriber: false,
+				email: "example@example.org",
+			},
+		}
 
-	expect(isSubscriber(nonSubscriber)).toBe(false)
-})
+		expect(isSubscriber(nonSubscriber)).toBe(false)
+	})
 
-test("with an invalid user", () => {
-	const invalidUser: UserResponse = {
-		success: true,
-		user: [],
-	}
+	test("with an invalid user", ({ expect }) => {
+		const invalidUser: UserResponse = {
+			success: true,
+			user: [],
+		}
 
-	expect(isSubscriber(invalidUser)).toBe(false)
+		expect(isSubscriber(invalidUser)).toBe(false)
+	})
 })

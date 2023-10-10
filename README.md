@@ -6,10 +6,9 @@ Maintainability-focused interview questions for junior developers.
 
 This is a TypeScript project using [strict TypeScript](https://www.typescriptlang.org/tsconfig#strict) and [strict TypeScript-ESLint](https://typescript-eslint.io/linting/configs/#strict-type-checked). The questions do not focus on algorithms, unlike traditional leet code, but instead focus on real-world scenarios that you will encounter in your day-to-day work with a strong emphasis on writing simple, maintainable code.
 
-1. Fork the project by clicking [here](https://github.com/NatoBoram/interview-typescript/fork)
-2. Clone it to your local machine using `git clone`
-3. Install the dependencies with `pnpm i`
-4. Solve the riddles in the `src` directory
+1. Clone the project using `git clone git@github.com:NatoBoram/interview-typescript.git`
+2. Install the dependencies with `pnpm i`
+3. Solve the riddles in the `src` directory
 
 ## Verifying your answers
 
@@ -29,7 +28,3 @@ pnpm test
 ```
 
 All scripts should pass before submitting your answers.
-
-## Submitting your answers
-
-To submit your answers, commit and push your changes to your fork then send the link of your fork to the person who sent you this interview.
